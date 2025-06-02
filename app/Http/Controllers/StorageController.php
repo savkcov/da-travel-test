@@ -17,7 +17,7 @@ class StorageController extends Controller
 		$storage->path = $path;
 		
 		$dir_objects=$storage->getDirInfo();
-		
+
 		return view('pages.index', ['path'=>$path, 'dir_objects'=>$dir_objects]);
 		
 	}

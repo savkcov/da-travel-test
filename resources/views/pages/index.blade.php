@@ -15,7 +15,7 @@
 					<tr>
 						<td>
 					@if($obgect['type'] == 'dir')
-						<a href="{!! $obgect['url'] !!}">{!! $obgect['name'] !!}</a>
+						<a href="/{!! $obgect['url'] !!}">{!! $obgect['name'] !!}</a>
 					@else
 						{!! $obgect['name'] !!}
 					@endif
